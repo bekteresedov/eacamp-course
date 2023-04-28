@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: black;
+  color: #fff;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 350px;
+  margin: 15px auto;
+  display: block;
+}
+
+ul {
+  border: 5px solid black;
+  list-style-position: inside;
+  text-align: center;
+  font-size: 35px;
+}
