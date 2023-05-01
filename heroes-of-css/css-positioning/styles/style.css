@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+  background: #999;
+
+  padding: 30px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 60px;
+  /* position: relative; */
+}
+
+.relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #262424;
+}
+.absolute {
+  position: absolute;
+  right: 130px;
+  bottom: 139px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background: #999;
+}
+
+.relative p {
+  font-size: 20px;
+  color: #fff;
+}

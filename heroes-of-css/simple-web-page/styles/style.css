@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  height: 10vh;
+}
+
+header img {
+  width: 50px;
+  float: left;
+  margin-left: 20px;
+}
+h1 {
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+nav {
+  background-color: rgb(113, 113, 103);
+  height: 40px;
+  margin-top: -20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ul li {
+  padding: 20px 0;
+} */
+ul li a {
+  float: left;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+a:hover {
+  background-color: rgb(71, 71, 117);
+  transition: 0.8s ease-in-out;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  background-color: #b6afaf;
+  height: 500px;
+  padding: 20px;
+}

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
+}
+
+nav {
+  width: 40%;
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  width: 25%;
+  float: left;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.desc {
+  margin-top: 50px;
+}
+
+.desc .feautre {
+  background-color: rgb(116, 116, 140);
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.desc .right {
+  float: left;
+  margin-left: 30px;
+}
