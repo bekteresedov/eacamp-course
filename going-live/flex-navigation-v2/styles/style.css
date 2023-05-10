@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+main {
+    position: relative;
+}
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 30px;
+  color: wheat;
+  padding-top: 13px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}

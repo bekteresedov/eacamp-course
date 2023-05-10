@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item {
+  width: 250px;
+  height: 350px;
+  border: 2px solid #ccc;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  margin-top: 60px;
+  background-color: rgb(220, 160, 29);
+  border: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+button:hover{
+    background-color: #000;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 20px;
+}
